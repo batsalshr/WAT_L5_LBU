@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Henny+Penny&family=Mouse+Memoirs&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Henny+Penny&family=Mouse+Memoirs&display=swap");
 
 body {
-    background-color: yellow;
+  background-color: yellow;
 }
-
 
 /*.site-header {
   position: relative;
@@ -31,28 +30,34 @@ body {
   
 */
 
-/*new code*/
+/* /new code/ */
 .logo-name {
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .mouse-logo {
+}
+#image {
   width: 200px;
   height: 200px;
 }
 
 .heading {
-  font-family: 'Mouse Memoirs', cursive;
+  font-family: "Mouse Memoirs", cursive;
   color: rgb(44, 30, 30);
   font-size: 50px;
   text-align: center;
 }
 
-.logo-name {
-    font-family: 'Henny Penny', cursive;
-    color: rgb(255, 0, 0);
-    font-size: 12px;
-    align-items: flex-end;
+.logo-end {
+  font-family: "Henny Penny", cursive;
+  color: rgb(44, 30, 30);
+  font-size: 12px;
+
+  display: flex;
+  justify-content: center; 
+  align-items: flex-end;   
+  height: 300px;         
 }
