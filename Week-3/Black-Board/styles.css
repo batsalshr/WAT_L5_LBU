@@ -90,3 +90,9 @@ body {
     border-radius: 5px;
     padding-left: 27%;
 }
+
+.main-grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+}
