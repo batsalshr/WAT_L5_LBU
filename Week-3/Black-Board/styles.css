@@ -221,13 +221,19 @@ body {
 }
 
 .Footer{
-  background-color: black;
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  cursor: pointer;
-  text-decoration: underline;
+    position: fixed;
+    height: 5vh;
+    width: 100vw;
+    bottom: 0;
+    font-size: 20px;
+    left: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    z-index: 1000;
+
 }
