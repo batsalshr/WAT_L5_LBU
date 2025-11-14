@@ -235,5 +235,6 @@ body {
     justify-content: center;
     gap: 10px;
     z-index: 1000;
+    cursor: pointer;
 
 }
