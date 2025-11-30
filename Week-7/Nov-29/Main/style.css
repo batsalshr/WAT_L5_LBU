@@ -77,10 +77,20 @@
     gap: 4px;
 }
 
+.login p{
+    text-align: start;
+}
 .login input {
     padding: 5px;
     border: 1px solid #aaa;
     border-radius: 4px;
+   ;
+}
+
+.login .reg{
+    font-size: 12px;
+    color: #ddd;
+    cursor: pointer;
 }
 
 /* Grid Layout Styles */
